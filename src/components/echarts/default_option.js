@@ -1,0 +1,3 @@
+const BASIC_OPTION = {};
+const EMPTY_OPTION = {};
+export {EMPTY_OPTION,BASIC_OPTION}

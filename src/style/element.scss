@@ -1,0 +1,115 @@
+div[class^="el-"] {
+  font-size: 13px;
+}
+.left-nav-wrap,
+.el-menu--vertical {
+  .el-menu {
+    border: 0;
+    font-size: 14px;
+    i {
+      color: #fff;
+    }
+    .el-menu-item,
+    .el-submenu__title {
+      font-size: 14px;
+      &:hover {
+        background-color: #1e2e61 !important;
+        > i[class^="el-icon"],
+        .iconfont {
+          color: #00ffcf;
+        }
+        > span {
+          font-weight: 600;
+        }
+      }
+    }
+    .el-menu-item.is-active {
+      background-color: #1e2e61 !important;
+      > span {
+        font-weight: 600;
+      }
+    }
+    .el-submenu__icon-arrow {
+      font-weight: 600;
+    }
+    .iconfont {
+      margin-right: 10px;
+    }
+  }
+}
+
+.el-table {
+  tr {
+    th {
+      border: none;
+      color: #6b7a9d;
+      background-color: #f1f3f9;
+    }
+    td {
+      color: #303133;
+      border: none;
+    }
+  }
+}
+.root-layout,.login-wrap {
+  .el-button--success {
+    background-color: #5fcb9b;
+    color: #fff;
+    &:hover {
+      background-color: #5fcb9b;
+      border-color: #3eb37f;
+      color: #fff;
+    }
+    &.el-button--success:focus {
+      background-color: #5fcb9b;
+      border-color: #3eb37f;
+      color: #fff;
+    }
+  }
+
+  .el-button--default {
+    background-color: #f2f2f1;
+    color: #5b5c71;
+    &:hover {
+      background-color: #f2f2f1;
+      border-color: #e8e4e4;
+      color: #5b5c71;
+    }
+    &.el-button--default:focus {
+      background-color: #f2f2f1;
+      border-color: #e8e4e4;
+      color: #5b5c71;
+    }
+  }
+
+  .el-button--primary {
+    background-color: #057aef;
+    color: #fff;
+    &:hover {
+      background-color: #057aef;
+      border-color: #016fde;
+      color: #fff;
+    }
+    &.el-button--primary:focus {
+      background-color: #057aef;
+      border-color: #016fde;
+      color: #fff;
+    }
+  }
+}
+
+.el-date-editor .el-range-separator {
+  width: 10%;
+}
+.el-page-header__left {
+  border: 1px solid #e3e6f0;
+  border-radius: 18px;
+  padding: 2px;
+  padding: 3px 11px;
+  color: #5b5c71;
+  &:hover {
+    color: #419fff;
+    background-color: #ecf5ff;
+    border-color: #b3d8ff;
+  }
+}

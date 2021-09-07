@@ -1,0 +1,362 @@
+* {
+  scrollbar-color: #dbdbdb;
+  scrollbar-width: thin;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 10px;
+  background-color: #dbdbdb;
+}
+*::-webkit-scrollbar:hover {
+  background: #b5b5b5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: outset 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  background-color: #fff;
+}
+
+/*定义滑块 内阴影+圆角*/
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: outset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dbdbdb;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #b5b5b5;
+}
+/* input/textarea的placeholder */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #c0c4cc;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  font-size: 14px;
+  color: #c0c4cc;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  font-size: 14px;
+  color: #c0c4cc;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  font-size: 14px;
+  color: #c0c4cc;
+}
+
+/* 超出部分显示省略号 */
+.hidden-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-x {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center-y {
+  display: flex;
+  align-items: center;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dialog-box {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+.h100 {
+  height: 100% !important;
+}
+
+.f-right {
+  float: right;
+}
+
+.f-left {
+  float: left;
+}
+
+.el-breadcrumb__inner.is-link,
+.el-breadcrumb__inner a {
+  color: #7f8fa4;
+  font-weight: 400;
+}
+
+.el-breadcrumb__inner.is-link:hover {
+  color: #1989fa !important;
+}
+
+.el-breadcrumb__inner {
+  color: #7f8fa4 !important;
+  font-weight: 400;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+.pr20 {
+  padding-right: 10px;
+}
+.pr30 {
+  padding-right: 10px;
+}
+.pl10 {
+  padding-left: 10px;
+}
+.pl20 {
+  padding-left: 20px;
+}
+.pl30 {
+  padding-left: 30px;
+}
+.pt10 {
+  padding-top: 10px;
+}
+.pt20 {
+  padding-top: 20px;
+}
+.pt30 {
+  padding-top: 30px;
+}
+.pb10 {
+  padding-bottom: 10px;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.line18 {
+  line-height: 18px;
+}
+
+.line20 {
+  line-height: 20px;
+}
+
+.line22 {
+  line-height: 22px;
+}
+
+.line24 {
+  line-height: 24px;
+}
+
+.f900 {
+  font-weight: 900;
+}
+
+.f600 {
+  font-weight: 600;
+}
+
+.f500 {
+  font-weight: 500;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f13 {
+  font-size: 13px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f15 {
+  font-size: 15px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f22 {
+  font-size: 22px;
+}
+
+.f24 {
+  font-size: 24px;
+}
+
+.f26 {
+  font-size: 26px;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-l {
+  text-align: left;
+}
+.dialog-wrap {
+  > div {
+    margin-bottom: 24px;
+  }
+  .label {
+    width: 100px;
+    margin-right: 40px;
+    text-align: right;
+  }
+}
+.require::after {
+  content: "*";
+  color: #f56c6c;
+  margin-left: 4px;
+}
+
+.filter-wrap {
+  .form-wrap {
+    > div {
+      width: 18%;
+      margin-bottom: 18px;
+      margin-right: 18px;
+    }
+  }
+  .btn-wrap {
+    margin-bottom: 24px;
+  }
+}
+
+.table-empty {
+  margin: 80px 0;
+  img {
+    width: 317px;
+    height: 224px;
+  }
+  .text1 {
+    color: #5b5c71;
+    font-size: 18px;
+    margin-top: -100px;
+    margin-bottom: -20px;
+    text-align: center;
+  }
+  .text2 {
+    color: #5b5c71;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.line-title {
+  position: relative;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #303133;
+  font-size: 16px;
+  &::before {
+    position: absolute;
+    content: "";
+    left: -10px;
+    top: calc((100% - 14px) / 2);
+    width: 4px;
+    height: 14px;
+    border-radius: 2px;
+    background-color: #4065e0;
+  }
+}
